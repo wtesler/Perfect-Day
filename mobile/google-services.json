@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "994293019816",
+    "firebase_url": "https://project-5317724074371957696.firebaseio.com",
+    "project_id": "project-5317724074371957696",
+    "storage_bucket": "project-5317724074371957696.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994293019816:android:85d9ebc6d6873846",
+        "android_client_info": {
+          "package_name": "will.tesler.perfectday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994293019816-ngjnuesj4aotki382aijts9e58fi60uj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "will.tesler.perfectday",
+            "certificate_hash": "B584C844A11B7C20177BDAD6D4CABC7A19858CB7"
+          }
+        },
+        {
+          "client_id": "994293019816-5rqv6svufdifhp3qdgvb4hknflo4a25m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRp1A_LCmvuOwKNh-DAakkvBdcqcb2eGw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994293019816-5rqv6svufdifhp3qdgvb4hknflo4a25m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
