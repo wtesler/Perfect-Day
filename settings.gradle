@@ -1,1 +1,4 @@
 include ':mobile', ':wear'
+
+include ':adapter'
+project(':adapter').projectDir = new File(settingsDir, '../UniversalAdapter/app')
