@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<will.tesler.perfectday.ui.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<will.tesler.perfectday.ui.SquareFrameLayout
+    android:id="@+id/content_frame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
-    android:background="@color/wallet_holo_blue_light"
-    android:elevation="12dp">
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginTop="8dp"
+    android:background="@color/colorAccent"
+    android:elevation="16dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
 
     <TextView
         android:id="@+id/text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="?android:selectableItemBackground"
+        android:clickable="true"
         android:gravity="center"
-        android:layout_gravity="center"/>
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
 
 </will.tesler.perfectday.ui.SquareFrameLayout>

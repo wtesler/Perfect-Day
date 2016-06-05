@@ -7,12 +7,14 @@ import android.renderscript.Allocation;
 import android.renderscript.Element;
 import android.renderscript.RenderScript;
 import android.renderscript.ScriptIntrinsicBlur;
+import android.support.annotation.CheckResult;
 import android.util.Log;
 
 public class Blur {
 
     private static final String TAG = "Blur";
 
+    @CheckResult
     public static Bitmap fastblur(Context context, Bitmap sentBitmap, int radius) {
 
         if (VERSION.SDK_INT > 16) {
